@@ -1,0 +1,287 @@
+body {
+	padding-top: 0;
+	margin-top: 50px;
+}
+
+.jumbotron {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.table th {
+    background-color: #eee;
+}
+
+.nav-tabs-top {
+	padding-left: 4px;
+	border-bottom: none 0px transparent;
+}
+
+.nav-tabs-left {
+    padding-top: 4px;
+    border-bottom: none;
+}
+
+.nav-tabs-left > li > a {
+    border-radius: 4px 0px 0px 4px;
+    margin-right: 0;
+}
+
+.nav-tabs-left > li.active > a {
+    border-color: #ddd #fff #ddd #ddd;
+    border-right: none;
+}
+
+.nav-tabs-left > li > a:hover,
+.nav-tabs-left > li.active > a:hover,
+.nav-tabs-left > li.active > a:focus {
+    border-color: #eee #eee #ddd #ddd;
+}
+
+.nav-tabs-right {
+    padding-top: 4px;
+    border-bottom: none;
+}
+
+.nav-tabs-right > li > a {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.nav-tabs-right > li.active > a {
+    border-color: #ddd #ddd #ddd #ddd;
+    border-left: none;
+}
+
+.nav-tabs-right > li > a:hover,
+.nav-tabs-right > li.active > a:hover,
+.nav-tabs-right > li.active > a:focus {
+    border-color: #eee #ddd #ddd #eee;
+}
+
+.prefix {
+}
+
+.prefix:before {
+    color: lightgray;
+    float: left;
+}
+
+.prefix-equal:before {
+    content: '=';
+}
+.prefix-plus:before {
+    content: '+';
+}
+.prefix-times:before {
+    content: 'x';
+}
+
+.suffix {
+}
+
+.suffix:before {
+    color: lightgray;
+    float: right;
+}
+
+.suffix-m:before {
+    content: 'm';
+}
+.suffix-G:before {
+    content: 'G';
+}
+
+.readonly .hidden-readonly {
+	display: none;
+}
+:not(.readonly) .visible-readonly {
+	display: none;
+}
+
+
+.dl-bordered dt {
+    width: 180px;
+    margin-bottom: -2px;
+    border-bottom: 1px solid #eee;
+}
+.dl-bordered dd {
+    margin-left: 180px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dl-centered dt ,
+.dl-centered dd {
+    text-align: center;
+}
+
+.dl-compact dt {
+	width: 80px;
+}
+
+.dl-compact dd {
+	margin-left: 80px;
+}
+
+.table-centered th,
+.table-centered td {
+	text-align: center;
+}
+
+td.column-0,
+th.column-0 {
+	width: 0;
+}
+
+#Portrait {
+    text-align: center;
+    max-height: 300px;
+    height: 300px;
+    line-height: 300px;
+}
+
+#Name {
+    text-align: center;
+    font-size: x-large;
+}
+
+#Name h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#BasicInformation .panel-body {
+	padding-bottom: 0;
+}
+
+#Ability {
+    display: flex;
+}
+
+#Ability .nav {
+    flex: 0 0 auto;
+}
+
+#Ability .panel {
+    flex: 1 1 auto;
+    border-left: none;
+}
+
+#Ability .tab-pane {
+    text-align: center;
+}
+
+#Ability table.table.table-bordered {
+    border: none 0px transparent !important;
+    border-top-left-radius: 4px;
+    margin-bottom: 0;
+}
+
+#Ability table thead tr:first-child th:first-child,
+#Ability table thead tr:first-child th:nth-child(2) {
+    /*background: #eee;*/
+    background: #222;
+    color: white;
+    border-top-left-radius: 4px;
+}
+
+#Ability table tr th,
+#Ability table tr td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#Ability table tr:nth-last-child(2) th[rowspan="2"],
+#Ability table tr:nth-last-child(2) td[rowspan="2"],
+#Ability table tr:last-child th,
+#Ability table tr:last-child td {
+    border-bottom: none;
+}
+
+#Ability table tr td:last-child,
+#Ability table tr th:last-child {
+    border-left: none 0px;
+    border-right: none;
+}
+
+#AbilityRaderCanvas {
+    margin: 10px;
+}
+
+#StandardValue .panel-body {
+    padding-bottom: 0;
+}
+
+#StandardValue .panel-body .row {
+    margin-bottom: -20px;
+}
+
+#StandardValue .dl-horizontal dt {
+    width: 120px;
+    text-align: center;
+}
+#StandardValue .dl-horizontal dd {
+    margin-left: 120px;
+    text-align: center;
+}
+#StandardValue .dl-horizontal .if-control {
+	display: inline-block;
+}
+
+#Waepon {
+    display: flex;
+}
+
+#Waepon .nav {
+    flex: 0 0 auto;
+    margin-top: 5px;
+}
+
+#Waepon .nav > li > a {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#Waepon .nav > li.active > a {
+    font-weight: 700;
+}
+
+#Waepon .tab-content {
+    flex: 1 1 auto;
+}
+
+#Waepon .panel-heading {
+    font-size: 24px;
+}
+
+#Waepon .panel-body .panel-body dl {
+    margin-bottom: -10px;
+}
+
+#Waepon .panel-body .dl-horizontal dt {
+    text-align: center;
+    width: 90px;
+}
+
+#Waepon .panel-body .dl-horizontal dd {
+    text-align: center;
+    margin-left: 90px;
+}
+
+#Waepon .panel > .panel-body > .panel {
+    margin-bottom: 0px;
+}
+#Waepon .if-delete {
+	margin-top: 20px;
+}
+
+#Armor dl,
+#Shield dl,
+#EvasionAndProtectionPoint dl:last-child {
+    margin-bottom: -10px;
+}
+
+#Bard .panel-body,
+#Alchemist .panel-body {
+    padding-bottom: 0;
+}

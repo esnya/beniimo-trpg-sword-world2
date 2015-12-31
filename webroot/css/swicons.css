@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: "swicons";
+  src: url("../fonts/swicons.eot");
+  src: url("../fonts/swicons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/swicons.woff") format("woff"),
+       url("../fonts/swicons.ttf") format("truetype"),
+       url("../fonts/swicons.svg#swicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.swicon-warleader:before,
+.swicon-rider:before,
+.swicon-bard:before,
+.swicon-enhance:before,
+.swicon-alchemist:before,
+.swicon-mystic:before,
+.swicon-daemonruler:before {
+  font-family: "swicons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.swicon-warleader:before { content: "\f100"; }
+.swicon-rider:before { content: "\f101"; }
+.swicon-bard:before { content: "\f102"; }
+.swicon-enhance:before { content: "\f103"; }
+.swicon-alchemist:before { content: "\f104"; }
+.swicon-mystic:before { content: "\f105"; }
+.swicon-daemonruler:before { content: "\f106"; }
