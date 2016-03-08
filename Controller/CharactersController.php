@@ -5,7 +5,7 @@
 		public $components = array('RequestHandler', 'InlineForm.InlineForm', 'AjaxImage.AjaxImage', 'RealtimeForm.RealtimeForm', 'InlineForm2.InlineForm2');
 
         public function beforeFilter() {
-            $this->Auth->allow('index', 'summary', 'image');
+            $this->Auth->allow('index', 'summary');
         }
 
 		public function index() {
