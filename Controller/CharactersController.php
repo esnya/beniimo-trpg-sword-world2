@@ -145,7 +145,7 @@
 		}
 
 		public function add() {
-			$this->Character->save(array('Character' => array('user_id' => User::getLoginId())));
+			$this->Character->save(array('Character' => array('user_id' => $this->Auth->user('id'))));
 			return $this->redirect(array('action' => 'view', $this->Character->id));
 		}
 
